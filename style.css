@@ -68,15 +68,25 @@
         border-radius: 0.5rem;
         border: none;
         background-color: var(--neutral-grey);
-        color: var(--neutral-white);
         font-weight: 700;
         font-size: 14px;
         letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a{
+      text-decoration: none;
+      color: var(--neutral-white);
     }
     .btn:hover{
         background-color: var(--primary-green);
         color: var(--neutral-dark-grey);
-    }
+    a{
+        color: var(--neutral-dark-grey);
+      }
+      }
+
     .lastbtn{
         margin-bottom: 2rem;
     }
