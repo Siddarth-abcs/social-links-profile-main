@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* - Mobile: 375px
+- Desktop: 1440px
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 600, 700
+- Font size (paragraph): 14px */
+
+:root {
+    /* Primary */
+    --primary-green: hsl(75, 94%, 57%);
+    
+    /* Neutral */
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-grey: hsl(0, 0%, 20%);
+    --neutral-dark-grey: hsl(0, 0%, 12%);
+    --neutral-off-black: hsl(0, 0%, 8%);
+  
+    --inter: 'Inter', sans-serif;
+  }
+  *{
+    margin: 0%;
+    padding: 0%;
+  }
+  body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--inter);
+    color: var(--neutral-white);
+    background-color: var(--neutral-off-black);
+  }
+  .container{
+    margin: auto;
+    background-color: var(--neutral-dark-grey);
+    width:340px;
+    height: 560px;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero{
+    margin: 2rem auto auto auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url('./assets/images/alchemyrefiner_alchemymagic_3_bd847c2f-4f53-48b9-8ce9-e307716391df_0.jpg');
+    background-position: center;
+    background-size: cover  ;
+}
+    h3{
+        color: var(--primary-green);
+        font-size: 14px;
+        margin-top: 0.5rem;
+    }
+    p{
+        color: #ffffffb7;
+        font-weight: 600;
+        font-size: 12px;
+        margin: 1.5rem auto 1rem auto;
+    }
+    .btn{
+        width: 80%;
+        height: 40px;
+        margin: 0.5rem auto;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: var(--neutral-grey);
+        color: var(--neutral-white);
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .btn:hover{
+        background-color: var(--primary-green);
+        color: var(--neutral-dark-grey);
+    }
+    .lastbtn{
+        margin-bottom: 2rem;
+    }
